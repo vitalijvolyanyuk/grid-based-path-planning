@@ -31,7 +31,7 @@ One test environment used an occlusion that blocked the direct route to the goal
 
 ## Example Planning Result
 
-Below are examples of the planned paths for the anytime variant in the occlusion environment. In this case, the anytime variant was able to find a suboptimal, feasible route earlier, while continued search improved the solution over time.
+Below are examples of the planned paths for the anytime variant in the occlusion environment. In this case, the anytime variant was able to find a suboptimal, feasible path earlier, while continued search improved the solution over time.
 
 ![Anytime Quick Suboptimal Solution](images/suboptimal_path.png)
 ![Anytime Optimal Solution](images/optimal_path.png)
