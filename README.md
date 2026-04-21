@@ -25,7 +25,7 @@ This project helped me develop a stronger foundation in search-based optimizatio
 
 ## Example Scene
 
-One test environment used an occlusion that blocked the direct route to the goal. This scene was useful for comparing how both planners explored around obstacles and how quickly the anytime variant produced an initial feasible path before improving it.
+One test environment used an occlusion that blocked the direct path to the goal. This scene was useful for comparing how both planners explored around obstacles and how quickly the anytime variant produced an initial feasible path before improving it.
 
 ![Occlusion scene](images/occlusion_scene.png)
 
