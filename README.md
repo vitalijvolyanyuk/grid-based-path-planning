@@ -16,7 +16,7 @@ This course final project explored search-based path planning for a mobile robot
 ## Key Takeaways
 
 - Heuristic design strongly affected search efficiency and recovery behavior.
-- The anytime variant found suboptimal, feasible paths earlier, but had longer convergence times for the optimal solution.
+- The anytime variant found suboptimal, feasible paths earlier, but had longer convergence times and brouder exploration for the optimal solution.
 - Planner performance depended heavily on environment structure, especially in misleading layouts where the robot could become trapped. The usefulness of an anytime variant ultimately depended on the nature and risk tolerance of the planning problem, including time constraints, safety considerations, and whether a feasible solution was acceptable before an optimal one.
 
 ## Learning Outcomes
@@ -31,7 +31,7 @@ One test environment used an occlusion that blocked the direct route to the goal
 
 ## Example Planning Result
 
-Below is an example of the planned paths for both planners in the occlusion environment. In this case, the anytime variant was able to find a suboptimal, feasible route earlier, while continued search improved the solution over time.
+Below are examples of the planned paths for the anytime variant in the occlusion environment. In this case, the anytime variant was able to find a suboptimal, feasible route earlier, while continued search improved the solution over time.
 
-![A* Planner](images/astar_path.png)
-![Anytime Planner](images/anytime_path.png)
+![Anytime Quick Suboptimal Solution](images/suboptimal_path.png)
+![Anytime Optimal Solution](images/optimal_path.png)
